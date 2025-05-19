@@ -51,6 +51,32 @@
 
 </details>
 
+# Task List
+- [  ] Tarea pendiente
+- [x] Tarea completada
+- [  ] Otra tarea pendiente
+
+# Esto es un bloque de código
+```csharp
+using System;
+ 
+class Program
+{
+   static void Main()
+   {
+       int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+ 
+       for (int i = 0; i < numeros.Length; i++)
+       {
+           if (numeros[i] % 2 == 0)
+           {
+              Console.WriteLine($"{numeros[i]} es un número par.");
+           }
+       }
+   }
+}
+```
+
 ### What's Next?
 
 After you have completed this course, you are probably wondering where to go from here:
